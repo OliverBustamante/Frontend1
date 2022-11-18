@@ -1,0 +1,61 @@
+/*
+primero en el archivio CSS comienzo con los estilos GENERALES/UNIVERSALES
+
+
+*/
+
+body {
+    background-color: #E6E6E6;
+    margin: 2px;
+    padding: 2px;
+
+    }
+
+.NombreCompleto{
+    font-style: italic;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: #005577;
+}
+
+.span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.años{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+
+
+/*ESTILOS DEL HEADER*/
+.encabezado{
+background-color: #E6E6E6;
+text-align: center;
+}
+
+.empty-space{
+    inset-block: 20px;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 84, 117);
+    background-color: #c4c4c4;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#TituloPrincipal{
+    font-size: 35px;
+    font-weight: 700;
+
+}
