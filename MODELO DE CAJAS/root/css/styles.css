@@ -1,0 +1,19 @@
+* { 
+    box-sizing: border-box;
+}
+
+.CAJA { 
+        /* HEIGHT -> ALTURA*/
+    height: 500px;
+        /* WIDTH -> ANCHO */
+    width: 300px;
+        /* MARGIN -> Márgenes -> espacios alrededor de nuestra caja. admite 4 valores */
+    margin: 40px 20px 10px 5px; /*esto se lee en direccion a las manesilla del reloj: arriba, derecha, abajo, izquierda*/
+        /* margin es el atajo de -> margin-top, margin-bottom, nargin-right, margin-left */
+        /* PADDING -> Relleno - espacio entre el contenido y el border */
+    padding: 40px;
+        /* BORDER */
+    border: 2px solid #ff0000;
+    background-color: #ff0000;
+    display: inline-block;
+}
