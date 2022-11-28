@@ -15,12 +15,9 @@ body {
     font-style: italic;
     font-weight: bold;
 }
-footer{
-    text-align: center;
-    background-color: #005577;
-}
 
-.span{
+
+.span{display: flex;
     font-style: italic;
     font-weight: bold;
 }
@@ -30,9 +27,47 @@ footer{
     font-weight: bold;
 }
 
-.justificar{
-    text-align: justify;
+.section{display: flex;
+    flex-direction: row;
+    
 }
+
+
+.footer{ display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: #005577;
+}
+
+.img1{display: flex;
+    position: relative;
+    top: 0;
+}
+
+
+.img2{display: flex;
+    position: relative;
+    top: 0;
+    right: 10px;
+    left: 25px;
+}
+
+
+
+.img3{display: flex;
+    position: relative;
+    top: 0;
+    right: 10px;
+    bottom: 10px;
+    left: 50px;
+}
+
+
+
+
+
+
+
 
 
 

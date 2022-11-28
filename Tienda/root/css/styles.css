@@ -1,0 +1,40 @@
+
+
+
+
+.header{
+
+    top: 2px;
+    bottom: 3px;
+    
+    
+}
+
+
+
+.color-h1{
+    display: flex;
+    position: relative;
+    background-color: #00669F;
+    margin: 0px;
+    
+
+}
+.span-h1{
+    display: flex;
+    position: relative;
+    color: white;
+    left: 25px;
+    align-self: center;
+
+
+}
+
+.logo{
+    
+    top: 6.94px;
+    right: 1341px;
+    bottom: 4px;
+    left: 0px;
+
+}

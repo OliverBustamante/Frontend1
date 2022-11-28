@@ -1,0 +1,44 @@
+/* ESTILOS GENERALES*/
+
+.{background-color: #F5F5F5;}
+
+
+
+.fuente{
+    font-family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam);
+
+}
+
+
+/*HEADER*/
+
+.encabezado{
+      display: flex;
+      justify-content: space-between;
+      padding: 100px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+/*BODY*/
+
+.seccion{display: flex;
+    justify-content: space-between;
+
+}
+
+.TituloPrincipal{display: flex;
+        align-items: center;
+        text-align: right;
+
+}
+
+.Textodeencabezado{
+    display: flex;
+    position: relative;
+    
+}
