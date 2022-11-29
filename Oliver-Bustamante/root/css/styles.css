@@ -1,44 +1,218 @@
 /* ESTILOS GENERALES*/
 
-.{background-color: #F5F5F5;}
+.{background-color: #F5F5F5;
 
+}
 
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .fuente{
-    font-family: [Be Vietnam](https://fonts.google.com/specimen/Be+Vietnam);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 
+
+
+.flex{
+    display: flex;
+}
+
+
+
+/*BOTONES*/
+.btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    color: #fff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: 0px;
+    
+}
+
+.btn2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    width: 110px;
+    height: 44px;
+    background-color: #8b48bf;
+    color: #fff;
+    border-radius: 50px;
+    border: 0;
+}
+
+
+/*ESTILO DE CONTENEDORES DE BOTONES*/
+
+.container-btn{
+    border: 1px solid red;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    animation: aparecer 1.5s linear;
+}
+
+.btn:hover{
+    background-color: rgba (138, 43, 226, .6);
+    cursor: pointer;
+}
+
 /*HEADER*/
+
+
+
 
 .encabezado{
       display: flex;
-      justify-content: space-between;
-      padding: 100px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 65px 165px;
+      gap: 224px;
+      position: absolute;
+      width: 1400;
+      height: 174px;
+      left: 0px;
+      top: 0px;
 }
 
 .navegacion{
     display: flex;
-    justify-content: space-around;
-    width: 400px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    gap: 28px;
+    width: 397px;
+    height: 23px;
 }
 
 /*BODY*/
 
-.seccion{display: flex;
-    justify-content: space-between;
-
-}
-
-.TituloPrincipal{display: flex;
-        align-items: center;
-        text-align: right;
-
-}
-
-.Textodeencabezado{
+.seccion1{
     display: flex;
-    position: relative;
-    
+    justify-content: space-around;
+    border: solid rebeccapurple;
+    align-items: center;
+
 }
+
+.seccion2{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 0px;
+   gap: 100px;
+   position: absolute;
+   width: 1440px;
+   height: 168px;
+   left: 0px;
+   top: 817px;
+   background-color: #8B48BF;
+   color: #fff;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alinearDerecha{
+    display: flex;
+    text-align: right;
+}
+
+.titulo1{
+    width: 425px;
+    height: 220px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 114%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.035em;    
+}
+
+.titulo2{
+    width: 425px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.subtitulo1{
+    width: 425px;
+    height: 71px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.subtitulo2{
+    width: 425px;
+    height: 88px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+    position: absolute;
+    width: 1090px;
+    height: 461.07px;
+    left: 180px;
+    top: 260px;
+}
+
+.padding{
+    padding: 0;
+    margin: 0;
+}
+
+.fraseHome{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+    width: 450px;
+    height: 399px;
+
+}
+
+
