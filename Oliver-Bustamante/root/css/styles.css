@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex-direction: column;
 }
 
 .fuente{
@@ -57,6 +58,20 @@
     border: 0;
 }
 
+.btn3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    width: 70px;
+    height: 44px;
+    background-color: #8b48bf;
+    color: #fff;
+    border-radius: 50px;
+    border: 0;
+}
 
 /*ESTILO DE CONTENEDORES DE BOTONES*/
 
@@ -105,14 +120,6 @@
 /*BODY*/
 
 .seccion1{
-    display: flex;
-    justify-content: space-around;
-    border: solid rebeccapurple;
-    align-items: center;
-
-}
-
-.seccion2{
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -121,7 +128,7 @@
    gap: 100px;
    position: absolute;
    width: 1440px;
-   height: 168px;
+   height: 110px;
    left: 0px;
    top: 817px;
    background-color: #8B48BF;
@@ -129,9 +136,56 @@
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.alinearDerecha{
+.seccion2{
     display: flex;
-    text-align: right;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 24px;
+    position: absolute;
+    width: 1440px;
+    height: 420px;
+    left: 0px;
+    top: 1000px;
+    background-color: #fff;
+}
+
+
+.seccion3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 50px;
+    position: relative;
+    width: 1440px;
+    height: 420px;
+    left: 0px;
+    top: 1500px;
+    background-color: #fff;
+    
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+    width: 1100px;
+    height: 160px;
+    
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+    width: 550px;
+    height: 160px;
 }
 
 .titulo1{
@@ -142,6 +196,7 @@
     font-weight: 700;
     font-size: 50px;
     line-height: 114%;
+
     display: flex;
     align-items: center;
     text-align: right;
@@ -155,6 +210,7 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 114%;
+
     display: flex;
     align-items: center;
     color: #fff;
@@ -168,6 +224,7 @@
     font-weight: 500;
     font-size: 16.5584px;
     line-height: 157%;
+
     display: flex;
     align-items: center;
     text-align: right;
@@ -180,6 +237,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
+
     display: flex;
     align-items: center;
     color: #fff;
@@ -192,6 +250,7 @@
     align-items: center;
     padding: 0px;
     gap: 100px;
+
     position: absolute;
     width: 1090px;
     height: 461.07px;
@@ -215,4 +274,75 @@
 
 }
 
+.mejordelmes{
+    position: absolute;
+    width: 424px;
+    height: 60px;
+    left: 553px;
+    top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 157%;
 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #242E53;
+}
+
+.cajaSanyo{
+    position: absolute;
+    left: 5%;
+    right: 65%;
+    top: 62%;
+    bottom: 28%;
+}
+
+
+
+.sanyo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    height: 237px;
+    left: 6.40%;
+    right: 65.62%;
+    top: calc(50% - 237px/2 + 439.52px);
+
+}
+
+.cajaLebron{
+    position: absolute;
+    left: 445px;
+    height: 254px;
+    left: 497px;
+    top: 1645px;
+}
+
+.lebron{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 403px;
+    height: 237px;
+    left: 524px;
+    top: 1645px;
+}
+
+.cajaNavarro{
+    position: absolute;
+    left: 445px;
+    height: 254px;
+    left: 951px;
+    top: 1645px;
+}
