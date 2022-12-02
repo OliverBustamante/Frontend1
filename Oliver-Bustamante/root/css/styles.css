@@ -4,6 +4,10 @@
 
 }
 
+body{
+    font-family:'Be Vietnam Pro', sans-serif;
+    color: #232C50;
+}
 .{
     margin: 0;
     padding: 0;
@@ -17,14 +21,34 @@
 }
 
 
+h4{
+    text-align: center;
+}
 
+
+p{
+    text-align: center;
+}
 
 .flex{
     display: flex;
 }
 
+a{
+    text-decoration: none;
+}
 
+form{
+    flex-direction: row;
+}
 
+input{
+    border-radius: 50px;
+    width: 201px;
+    height: 42px;
+    border: 0px;
+   
+}
 /*BOTONES*/
 .btn1{
     display: flex;
@@ -73,6 +97,39 @@
     border: 0;
 }
 
+.btn4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    width: 120px;
+    height: 44px;
+    background-color: #8b48bf;
+    color: #fff;
+    border-radius: 50px;
+    border: 0;
+    position: flex;
+}
+
+
+.btn5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 10px;
+    width: 120px;
+    height: 44px;
+    background-color: #fff;
+    color: #8b48bf;
+    border-radius: 50px;
+    border: 0;
+    position: flex;
+}
+
 /*ESTILO DE CONTENEDORES DE BOTONES*/
 
 .container-btn{
@@ -111,10 +168,44 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 0px;
     gap: 28px;
-    width: 397px;
-    height: 23px;
+    width: 400px;
+    height: 50px;
+    
+}
+
+.navegacionFooter{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+padding: 0px;
+
+
+
+
+
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    
+    list-style-type: none;
+    color: #242E52;
+    width: 400px;
+    height: 40px;
+    margin: 0px;
+}
+
+.li{
+    text-decoration: none;
+    text-align: center;
 }
 
 /*BODY*/
@@ -154,16 +245,49 @@
 .seccion3{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px 0px;
-    gap: 50px;
-    position: relative;
+    padding-bottom: 200px;
+    position: absolute;
     width: 1440px;
-    height: 420px;
+    height: 500px;
     left: 0px;
     top: 1500px;
     background-color: #fff;
+    margin: 0px;
     
+}
+
+.seccion4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 2200px;
+    height: 500px;
+    width: 1440px;
+    background-color: #fff;
+}
+
+.seccionFooter{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
+    
+    flex-direction: row;
+    height: 190px;
+    width: 1250px;
+    top: 20px;
+    bottom: 20px;
+}
+
+.copyright{
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 1050px;;
+    bottom: 43.15px;
+    font-size: 12.5px;
 }
 .div1{
     display: flex;
@@ -187,6 +311,83 @@
     width: 550px;
     height: 160px;
 }
+
+.div3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 200px;
+    width: 1400px;
+    
+    
+}
+.div4{
+    display: flex;
+    flex-direction: row;
+    background-color: #8B48BF;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div5{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1E26;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.div6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 154px;
+    height: 126px;
+    
+   
+}
+
+.div7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 393px;
+}
+
+.div8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300PX;
+    height: 50PX;
+}
+
+.divIconos{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+    width: 154px;
+    
+}
+
+.alinearCaja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 29%;
+    
+    
+
+}
+
 
 .titulo1{
     width: 425px;
@@ -246,10 +447,11 @@
 
 .principal{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 100px;
+    gap: 50px;
 
     position: absolute;
     width: 1090px;
@@ -275,74 +477,13 @@
 }
 
 .mejordelmes{
-    position: absolute;
-    width: 424px;
-    height: 60px;
-    left: 553px;
-    top: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 40px;
-    line-height: 157%;
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #242E53;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
-.cajaSanyo{
-    position: absolute;
-    left: 5%;
-    right: 65%;
-    top: 62%;
-    bottom: 28%;
-}
-
-
-
-.sanyo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-
-    position: absolute;
-    height: 237px;
-    left: 6.40%;
-    right: 65.62%;
-    top: calc(50% - 237px/2 + 439.52px);
-
-}
-
-.cajaLebron{
-    position: absolute;
-    left: 445px;
-    height: 254px;
-    left: 497px;
-    top: 1645px;
-}
-
-.lebron{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-
-    position: absolute;
-    width: 403px;
-    height: 237px;
-    left: 524px;
-    top: 1645px;
-}
-
-.cajaNavarro{
-    position: absolute;
-    left: 445px;
-    height: 254px;
-    left: 951px;
-    top: 1645px;
+.imgFooter{
+    position: relative;
+    width: 107px;
+    height: 25px;
 }
